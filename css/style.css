@@ -1,0 +1,14 @@
+@font-face{
+	font-family:'HelveticaNeue-C-700';
+	src:url(../fonts/HelveticaNeue-CondensedBold.woff) format('woff');
+	font-weight:700;
+}
+@font-face{
+	font-family:'HelveticaNeue-C-400';
+	src:url(../fonts/HelveticaNeue-CondensedRegular.woff) format('woff');
+	font-weight:400;
+}
+@font-face{
+	font-family:'MinionPro-400';
+	src:url(../fonts/HelveticaNeue-CondensedBold.woff) format('woff');
+}
