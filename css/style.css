@@ -17,7 +17,7 @@ p{
 	color:#86878b;
 }
 h1, h2, h3, h4, h5, h6{
-	color:#000;
+	color:#333;
 }
 h1{
 	font-family:Raleway, Aria, Helvetica, sans-serif;
@@ -197,6 +197,42 @@ body.locked{
 	color:#fff;
 	text-align:center;
 }
+
+/*.main*/
+/*media*/
+section{
+	width:100%;
+}
+.media{
+	padding:22px 0;
+	box-shadow:0 2px 5px rgba(0, 0, 0, 0.38);
+}
+.media__content{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.media__info{
+	max-width:450px;
+	width:100%;
+	margin-right:100px;
+}
+.info__title{
+	padding:0 0 6px;
+}
+.info__text{
+	line-height:25px;
+}
+.media__social{
+	width:1005px;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.social__ico img{
+	display:block;
+}
+
 
 /*media queries*/
 @media screen and (max-width:1279px) {
