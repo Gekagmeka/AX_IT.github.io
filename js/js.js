@@ -6,7 +6,18 @@ $('.header__burger, .header__link').on('click', function(){
 // carousel
 $('.slick').slick({
 	dots: true,
-	spped: 300,
 	slidesToShow: 1,
-	arrows: false
+	arrows: false,
+	vertical: true,
+	verticalSwiping:true,
+		responsive:[
+			{
+				breakpoint: 768,
+				settings: {
+					dots: false,
+					vertical: false,
+					verticalSwiping: false
+				}
+			}
+		]
 });
