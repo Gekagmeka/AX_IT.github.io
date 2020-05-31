@@ -317,7 +317,8 @@ section{
 .subscribe__line,
 .picture__line,
 .three-columns__line,
-.price__line{
+.price__line,
+.review__line{
 	background-color:#ff8b38;
 	margin-bottom:15px;
 }
@@ -382,7 +383,8 @@ section{
 	text-align:center;
 }
 .three-columns__line,
-.price__line{
+.price__line,
+.review__line{
 	margin:0 auto;
 	margin-bottom:40px;
 }
@@ -421,9 +423,12 @@ section{
 .price__text{
 	padding-bottom:90px;
 }
-.price__row{
+.price__row,
+.review__row{
 	display:flex;
 	justify-content:space-between;
+}
+.price__row{
 	align-items:flex-end;
 }
 .column--price__title,
@@ -467,6 +472,44 @@ section{
 	text-align:center;
 	color:#fff;
 	font-weight:700;
+}
+
+/*review*/
+.review{
+	padding:70px 0 90px;
+}
+.review__title{
+	text-align:center;
+}
+.review__text{
+	text-align:center;
+	margin-bottom:75px;
+}
+.review__column{
+	max-width:375px;
+	margin:0 auto;
+}
+.column__head{
+	background-color:#f5f5f5;
+	padding:30px 20px;
+	border-radius:5px;
+	margin-bottom:25px;
+	font-style:italic;
+	line-height:24px;
+}
+.review__row{
+	align-items:flex-start;
+}
+.column__image{
+	flex:0 0 70px;
+	margin-right:20px;
+}
+.column__footer{
+	display:flex;
+	align-items:center;
+}
+.column__name{
+	padding-bottom:5px;
 }
 
 
@@ -623,6 +666,13 @@ section{
 		padding-left:5px;
 		padding-right:5px;
 	}
+	/*review*/
+	.review__text{
+		margin-bottom:50px;
+	}
+	.column__head{
+		padding:25px 15px;
+	}
 }
 @media screen and (max-width:900px) {
 	.row__form{
@@ -710,7 +760,7 @@ section{
 	}
 	/*price*/
 	.price{
-		padding:40px 0 20px;
+		padding:40px 0;
 	}
 	.price__row{
 		display:block;
@@ -721,6 +771,9 @@ section{
 	.price__column{
 		width:100%;
 		margin-bottom:60px;
+	}
+	.review{
+		padding:40px 0;
 	}
 }
 @media screen and (max-width:767px) {
@@ -910,6 +963,21 @@ section{
 	}
 	.price__column{
 		margin-bottom:40px;
+	}
+	/*review*/
+	.review{
+		padding:30px 0;
+	}
+	.review__row{
+		display:block;
+	}
+	.review__column{
+		max-width:400px;
+		margin:0 auto;
+		margin-bottom:50px;
+	}
+	.review__column.column{
+		width:100%;
 	}
 }
 @media screen and (max-width:413px) {
