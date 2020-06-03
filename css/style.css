@@ -492,10 +492,19 @@ section{
 .column__head{
 	background-color:#f5f5f5;
 	padding:30px 20px;
+	position:relative;
 	border-radius:5px;
 	margin-bottom:25px;
 	font-style:italic;
 	line-height:24px;
+}
+.column__head:after{
+	content:'';
+	position:absolute;
+	left:19px;
+	bottom:-34px;
+	border:15px solid transparent;
+	border-top:20px solid #f5f5f5;
 }
 .review__row{
 	align-items:flex-start;
