@@ -560,7 +560,7 @@ section{
 
 /*prefooter*/
 .prefooter{
-	padding:60px 0 90px;
+	padding:60px 0 100px;
 }
 .prefooter__title{
 	text-align:center;
@@ -608,6 +608,31 @@ section{
 	padding-bottom:10px;
 }
 
+/*footer*/
+.footer{
+	background-color:#000001;
+	padding:40px 0;
+}
+.footer__social{
+	width:100%;
+	max-width:450px;
+	margin:0 auto;
+	margin-bottom:20px;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	flex-wrap:wrap;
+}
+.footer__ico{
+	transform:scale(0.75);
+}
+.footer__ico img{
+	display:block;
+}
+.footer__text{
+	text-align:center;
+	color:#fff;
+}
 
 /*media queries*/
 @media screen and (max-width:1279px) {
